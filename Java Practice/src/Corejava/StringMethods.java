@@ -45,6 +45,17 @@ public class StringMethods {
 		System.out.println("First part is : " + aSplit[0]);
 		System.out.println("Last part is : " + aSplit[1]);
 		
+		int iCP = sTopic_2.codePointAt(3);
+		System.out.println("Code pointy at specified index : " + iCP);
+		
+		byte[] bBytes = sTopic_2.getBytes();
+		byte[] bBytes1 = sTopic_1.getBytes();
+		System.out.println("sTopic_2 bytes :" + bBytes +" "+ bBytes1);
+		
+		int iHash = sTopic_3.hashCode();
+		System.out.println("Hash code for sTopic_3 :" + iHash);
+		
+		
 	}
 
 }
